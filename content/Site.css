@@ -1,0 +1,58 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+	background-image: url("../img/FundoBonito14.jpg");
+	color: #FFF !important;
+	font-family: Nunito,sans-serif;
+	overflow-x: hidden !important;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+
+#canvas{
+  border: solid 1px blue;  
+  width: 100%;
+}
+.modal .modal-dialog { width: 90% !important;} 
+
+a{
+	color:#000 !important; 
+	text-decoration:none !important;
+}
+.borda  a{
+	color:#fff !important;
+	text-decoration:none !important;
+}
+
+
+.borda a:hover{
+	color:#fff !important;
+	text-decoration:none !important;
+	border-bottom:1px solid;
+}
+
+#btnFiltrar:hover{
+	text-decoration:underline !important;
+}
+iframe{
+overflow-x:hidden;
+}
+
+@media (max-width: 750px){
+	.col-sm-9{
+		text-align:center !important;
+	}
+}
